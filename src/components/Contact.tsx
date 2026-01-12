@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, Send } from "lucide-react";
 import Link from "next/link";
 
 export function Contact() {
@@ -48,15 +48,7 @@ export function Contact() {
                         </div>
                     </div>
 
-                    <div className="flex items-start gap-4">
-                        <div className="p-3 rounded-lg bg-secondary/10 text-secondary">
-                            <Phone className="w-6 h-6" />
-                        </div>
-                        <div>
-                            <h3 className="text-lg font-bold mb-1">Phone</h3>
-                            <p className="text-muted-foreground">+91 9717554845</p>
-                        </div>
-                    </div>
+
 
                     <div className="flex items-start gap-4">
                         <div className="p-3 rounded-lg bg-accent/10 text-accent">
@@ -64,7 +56,7 @@ export function Contact() {
                         </div>
                         <div>
                             <h3 className="text-lg font-bold mb-1">Location</h3>
-                            <p className="text-muted-foreground">Faridabad, Haryana, India</p>
+                            <p className="text-muted-foreground">Haryana, India</p>
                         </div>
                     </div>
 
